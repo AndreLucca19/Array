@@ -16,3 +16,9 @@ console.log(carros);
 let numeros = [1,2,3]
 numeros.unshift(0);
 console.log(numeros);
+
+//Retorna um novo Array
+let letras1 = ['a','b'];
+let letras2 = ['c','d'];
+let adicionar = letras1.concat(letras2);
+console.log(adicionar);
