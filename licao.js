@@ -42,3 +42,8 @@ console.log(numeroVezes2);
 //Vai executar uma função de cada vez no codigo
 let numero2 = [1,2,3];
 numero2.forEach (numero2 => {console.log(numero2 * 2);});
+
+//Vai encontrar a posição de um número na Array 
+let numero3 = [1, 2, 3, 4];
+let index = numero3.indexOf(2);
+console.log(index);
