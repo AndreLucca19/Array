@@ -27,3 +27,9 @@ console.log(adicionar);
 let letra1 = ['a', 'b', 'c', 'd'];
 letra1.splice(1, 2);
 console.log(letra1)
+
+//Remove o primeiro elemento da Array
+let tarefas = ['Estudar', 'Academia', 'Ler'];
+let proximaTarefa = tarefas.shift();
+console.log(`Próxima tarefa: ${proximaTarefa}`);
+console.log('Tarefas restantes:', tarefas);
