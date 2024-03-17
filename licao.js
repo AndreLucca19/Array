@@ -1,6 +1,6 @@
+//Nomes adicionados
 let nomes = ['Thiago, Bruno, Felipe'];
 
-//Nomes adicionados
 nomes.push('André');
 nomes.push('João');
 
@@ -22,3 +22,8 @@ let letras1 = ['a','b'];
 let letras2 = ['c','d'];
 let adicionar = letras1.concat(letras2);
 console.log(adicionar);
+
+//Altera o conteudo de uma Array Splice
+let letra1 = ['a', 'b', 'c', 'd'];
+letra1.splice(1, 2);
+console.log(letra1)
