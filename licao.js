@@ -36,5 +36,9 @@ console.log('Tarefas restantes:', tarefas);
 
 //Cria uma nova array com os resultados multiplicados
 let numero1 = [1,2,3];
-let numeroVezes2 = numero1.map(item => item * 2);
+let numeroVezes2 = numero1.map(numero1 => numero1 * 2);
 console.log(numeroVezes2);
+
+//Vai executar uma função de cada vez no codigo
+let numero2 = [1,2,3];
+numero2.forEach (numero2 => {console.log(numero2 * 2);});
