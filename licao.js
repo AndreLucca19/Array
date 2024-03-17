@@ -23,13 +23,18 @@ let letras2 = ['c','d'];
 let adicionar = letras1.concat(letras2);
 console.log(adicionar);
 
-//Altera o conteudo de uma Array Splice
+//Altera o conteudo de uma Array 
 let letra1 = ['a', 'b', 'c', 'd'];
 letra1.splice(1, 2);
 console.log(letra1)
 
-//Remove o primeiro elemento da Array
+//Remove a primeira tarefa feita, e mostra as restantes a serem terminadas
 let tarefas = ['Estudar', 'Academia', 'Ler'];
 let proximaTarefa = tarefas.shift();
 console.log(`Próxima tarefa: ${proximaTarefa}`);
 console.log('Tarefas restantes:', tarefas);
+
+//Cria uma nova array com os resultados multiplicados
+let numero1 = [1,2,3];
+let numeroVezes2 = numero1.map(item => item * 2);
+console.log(numeroVezes2);
