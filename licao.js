@@ -43,7 +43,12 @@ console.log(numeroVezes2);
 let numero2 = [1,2,3];
 numero2.forEach (numero2 => {console.log(numero2 * 2);});
 
-//Vai encontrar a posição de um número na Array 
+//Vai encontrar a posição de um número na Array e mostrar seu índice
 let numero3 = [1, 2, 3, 4];
 let index = numero3.indexOf(2);
 console.log(index);
+
+//Ira criar uma segunda lista de frutas com apenas algumas da lista anterior 
+let listaDeFrutas = ['abacaxi', 'morango', 'melao', 'uva', 'laranja', 'banana'];
+let selecionarFrutas = listaDeFrutas.slice(1, 4);
+console.log(selecionarFrutas);
